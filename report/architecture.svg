@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="511.2" height="211" preserveAspectRatio="xMinYMin meet" viewBox="0 0 511 211" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="511.2" height="211"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-211)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="125" width="150" height="73" rx="5" ry="5" style="stroke: rgb(3%,41%,40%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,96%,95%); fill-rule: evenodd;"/>
+			<text x="9" y="181" style="font-family: Bold; font-size: 9.4px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,362) scale(1,-1)">Browser interface</text>
+			<text x="9" y="166" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,332) scale(1,-1)">Select thread</text>
+			<text x="9" y="155" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,310) scale(1,-1)">Inspect / choose / Undo</text>
+			<rect x="181" y="125" width="149" height="73" rx="5" ry="5" style="stroke: rgb(3%,41%,40%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,96%,95%); fill-rule: evenodd;"/>
+			<text x="190" y="181" style="font-family: Bold; font-size: 9.4px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,362) scale(1,-1)">Python HTTP handler</text>
+			<text x="190" y="166" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,332) scale(1,-1)">Validate action</text>
+			<text x="190" y="155" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,310) scale(1,-1)">Recompute suggestion</text>
+			<rect x="361" y="125" width="150" height="73" rx="5" ry="5" style="stroke: rgb(3%,41%,40%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,96%,95%); fill-rule: evenodd;"/>
+			<text x="370" y="181" style="font-family: Bold; font-size: 9.4px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,362) scale(1,-1)">Rule engine</text>
+			<text x="370" y="166" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,332) scale(1,-1)">Baseline or revised</text>
+			<text x="370" y="155" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,310) scale(1,-1)">AI behaviour simulated</text>
+			<path d="M 150,174 L 181,174 Z" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="181 174, 176 171, 176 177" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,41%,47%); fill-rule: evenodd;"/>
+			<path d="M 330,174 L 361,174 Z" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="361 174, 356 171, 356 177" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,41%,47%); fill-rule: evenodd;"/>
+			<path d="M 361,143 L 330,143 Z" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="330 143, 335 140, 335 146" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,41%,47%); fill-rule: evenodd;"/>
+			<path d="M 181,143 L 150,143 Z" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="150 143, 155 140, 155 146" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,41%,47%); fill-rule: evenodd;"/>
+			<rect x="181" y="18" width="149" height="76" rx="5" ry="5" style="stroke: rgb(3%,41%,40%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,96%,95%); fill-rule: evenodd;"/>
+			<text x="190" y="77" style="font-family: Bold; font-size: 9.4px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,154) scale(1,-1)">Local session memory</text>
+			<text x="190" y="62" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,124) scale(1,-1)">Labels and undo history</text>
+			<text x="190" y="51" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,102) scale(1,-1)">Explicit choice required</text>
+			<rect x="361" y="18" width="150" height="76" rx="5" ry="5" style="stroke: rgb(3%,41%,40%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,96%,95%); fill-rule: evenodd;"/>
+			<text x="370" y="77" style="font-family: Bold; font-size: 9.4px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,154) scale(1,-1)">Synthetic input</text>
+			<text x="370" y="62" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,124) scale(1,-1)">Latest + quoted text</text>
+			<text x="370" y="51" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,102) scale(1,-1)">Timestamps + fixed clock</text>
+			<path d="M 255,125 L 255,94 Z" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="255 94, 252 99, 258 99" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,41%,47%); fill-rule: evenodd;"/>
+			<path d="M 436,94 L 436,125 Z" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="436 125, 433 120, 439 120" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,41%,47%); fill-rule: evenodd;"/>
+			<rect x="0" y="18" width="150" height="76" rx="5" ry="5" style="stroke: rgb(32%,41%,47%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 3;"/>
+			<text x="9" y="77" style="font-family: Bold; font-size: 9.4px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,154) scale(1,-1)">Planned components</text>
+			<text x="9" y="62" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,124) scale(1,-1)">Mailbox access</text>
+			<text x="9" y="51" style="font-family: Body; font-size: 8.6px;fill: rgb(9%,16%,21%); stroke:none;" transform="translate(0,102) scale(1,-1)">Learned model</text>
+			<text x="0" y="0" style="font-family: Body; font-size: 8.4px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,0) scale(1,-1)">Solid boxes implemented     Dashed box planned     Inference uses deterministic rules</text>
+		</g>
+	</g>
+</svg>

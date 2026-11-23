@@ -1,0 +1,20 @@
+Executed 23 November 2026 with Python 3.12.14
+Command: python -B -m unittest -v test_project
+
+test_bad_request_preserves_labels (test_project.ActionTests.test_bad_request_preserves_labels) ... ok
+test_client_suggestion_cannot_override_server_result (test_project.ActionTests.test_client_suggestion_cannot_override_server_result) ... ok
+test_confirm_correction_and_undo (test_project.ActionTests.test_confirm_correction_and_undo) ... ok
+test_sessions_are_separate (test_project.ActionTests.test_sessions_are_separate) ... ok
+test_suggestion_does_not_save (test_project.ActionTests.test_suggestion_does_not_save) ... ok
+test_unresolved_confirm_is_rejected (test_project.ActionTests.test_unresolved_confirm_is_rejected) ... ok
+test_unsure_saves_nothing (test_project.ActionTests.test_unsure_saves_nothing) ... ok
+test_baseline_reproduces_quoted_date_failure (test_project.InferenceTests.test_baseline_reproduces_quoted_date_failure) ... ok
+test_invalid_and_conflicting_dates (test_project.InferenceTests.test_invalid_and_conflicting_dates) ... ok
+test_missing_text_and_future_timestamp (test_project.InferenceTests.test_missing_text_and_future_timestamp) ... ok
+test_relative_today_uses_message_date (test_project.InferenceTests.test_relative_today_uses_message_date) ... ok
+test_revised_fixture_labels (test_project.InferenceTests.test_revised_fixture_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+OK
