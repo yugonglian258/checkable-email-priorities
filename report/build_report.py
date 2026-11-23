@@ -61,26 +61,26 @@ def wrapped_lines(text, width, font='Body', size=9):
 
 
 def box(drawing, x, y, w, h, title, lines, planned=False):
-    drawing.add(Rect(x, y, w, h, fillColor=colors.white if planned else PALE,
-                     strokeColor=MUTED if planned else TEAL, strokeWidth=.8,
-                     strokeDashArray=[3, 3] if planned else None, rx=5, ry=5))
-    drawing.add(String(x+9, y+h-17, title, fontName='Bold', fontSize=9.4, fillColor=INK))
+    drawing.add(Rect(x, y, w, h, fillColor=colors.white,
+                     strokeColor=colors.black, strokeWidth=.8,
+                     strokeDashArray=[3, 3] if planned else None))
+    drawing.add(String(x+9, y+h-17, title, fontName='Bold', fontSize=9.4, fillColor=colors.black))
     position = y+h-32
     for text in lines:
         for line in wrapped_lines(text, w-18, size=8.6):
-            drawing.add(String(x+9, position, line, fontName='Body', fontSize=8.6, fillColor=INK))
+            drawing.add(String(x+9, position, line, fontName='Body', fontSize=8.6, fillColor=colors.black))
             position -= 11
 
 
 def arrow(drawing, x1, y1, x2, y2):
-    drawing.add(Line(x1, y1, x2, y2, strokeColor=MUTED, strokeWidth=.9))
+    drawing.add(Line(x1, y1, x2, y2, strokeColor=colors.black, strokeWidth=.9))
     if x1 == x2:
         direction = 1 if y2 > y1 else -1
         points = [x2, y2, x2-3, y2-5*direction, x2+3, y2-5*direction]
     else:
         direction = 1 if x2 > x1 else -1
         points = [x2, y2, x2-5*direction, y2-3, x2-5*direction, y2+3]
-    drawing.add(Polygon(points, fillColor=MUTED, strokeColor=MUTED))
+    drawing.add(Polygon(points, fillColor=colors.black, strokeColor=colors.black))
 
 
 def architecture():
