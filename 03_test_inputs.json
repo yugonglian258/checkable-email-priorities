@@ -1,0 +1,51 @@
+{
+  "now": "2026-10-22T10:00:00+01:00",
+  "timezone": "Europe/London",
+  "note": "Synthetic mailbox snapshot and fixed local clock; no real mailbox is connected.",
+  "cases": {
+    "A": {
+      "request": "Which of these threads need my action today? Show the evidence before I save a label.",
+      "threads": [
+        {
+          "id": "A1",
+          "subject": "Confirm workshop place",
+          "latest_received": "2026-10-22T09:00:00+01:00",
+          "latest": "Please confirm your place by 16:00 today.",
+          "quoted": "",
+          "expected": "ACTION_TODAY"
+        },
+        {
+          "id": "A2",
+          "subject": "Project outline",
+          "latest_received": "2026-10-22T09:15:00+01:00",
+          "latest": "Please send your outline by 2026-10-23.",
+          "quoted": "",
+          "expected": "NOT_TODAY"
+        },
+        {
+          "id": "A3",
+          "subject": "Workshop information",
+          "latest_received": "2026-10-22T09:20:00+01:00",
+          "latest": "No action needed. This message is for information only.",
+          "quoted": "",
+          "expected": "NOT_TODAY"
+        }
+      ]
+    },
+    "B": {
+      "request": "Does this workshop thread need action today?",
+      "threads": [
+        {
+          "id": "B1",
+          "subject": "Workshop update",
+          "latest_received": "2026-10-22T09:30:00+01:00",
+          "latest": "Could you confirm when you can? The notice below is from last year.",
+          "quoted": "Received 2025-10-20: Please confirm by 22 October 2025.",
+          "expected": "NEEDS_REVIEW"
+        }
+      ],
+      "scripted_user_followup": "Later",
+      "followup_note": "A scripted user choice demonstrating the correction route, not a real participant response."
+    }
+  }
+}
