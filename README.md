@@ -1,6 +1,7 @@
 # Checkable email priorities
 
-README word count is recorded in report/readme-word-count.json.
+README word count 1387 including headings code and links, excluding this count line.
+
 
 Public repository https://github.com/yugonglian258/checkable-email-priorities .
 
@@ -54,7 +55,7 @@ The development stages below describe reused course work and changes made for A2
 | Lab 2 concept, 15 October 2026 | Specified source inspection, direct correction and Undo | Used a fictional first-time user to examine correction scope. This was a design exercise |
 | Lab 3 prototype, 22 October 2026 | Added separate baseline and revised inference paths with a fixed clock | The baseline misclassified B1. Revised inference kept it unresolved and preserved local correction |
 | A2 browser prototype, 23 November 2026 | Reused the Lab 3 inference/session code and four fixtures. Added the browser view, cookie sessions and server-side action checks | Replayed all three interactions in the browser and recorded screenshots. Twelve regression tests passed |
-| A2 report, 23 November 2026 | Produced the architecture diagram and illustrated interaction sequences from the implementation | Checked that each state and control exists and that simulated and planned components are labelled |
+| A2 report, 23 November 2026 | Produced architecture and interaction figures, then revised the rationale against five supplied Weeks 2–4 lectures | Checked implemented states, distinguished simulation and plans, and verified feedback, repair, validation, memory and provenance claims against the cited PDF pages |
 
 `triage.py` and `03_test_inputs.json` were copied from this student's Lab 3 submission. `app.py`, `index.html` and `test_project.py` were developed for A2. The architecture and interaction figures were created for this report. The baseline mode deliberately preserves the old error so the correction path can be inspected.
 
@@ -76,11 +77,11 @@ The revised rules recognise a small phrase vocabulary and ISO dates. They can mi
 
 ## Submitted version
 
-The submitted Git release tag is `a2-submission-v2`. Run `git rev-parse a2-submission-v2` to inspect the commit. The accompanying archive includes the working project, evidence and local Git history. The report links to the public repository and this README at the submitted tag.
+The submitted Git release tag is `a2-submission-v3`. Run `git rev-parse a2-submission-v3` to inspect the commit. The accompanying archive includes the working project, evidence and local Git history. The report links to the public repository and this README at the submitted tag.
 
-The report PDF, editable report content and vector figures are in `report/`. `report/build_report.py` regenerates the PDF from `report/content.json` using ReportLab. Running the email app itself uses only the standard library. The supplied report counts 157 abstract words and 895 main-text words, including section headings and the interaction introduction. Figure labels, brief captions, references and repository access details are excluded.
+The report PDF, editable report content and vector figures are in `report/`. `report/build_report.py` regenerates the PDF from `report/content.json` using ReportLab. Running the email app itself uses only the standard library. The report word counts are recorded on its first page and in report/word-count.json, including section headings and the interaction introduction. Figure labels, brief captions, references and repository access details are excluded.
 
-The report cites Week 1 Lecture 01 slides 10 and 14, which were inspected in Canvas, and primary HAX guideline pages. Further navigation of the course slides stopped when browser control could not reliably identify the current URL. Weeks 2–4 lecture slides require a follow-up check. No teacher feedback was supplied.
+The report cites inspected course material from Weeks 1–4. Lecture 04 informs local visual feedback and acknowledgement, Lecture 07 informs explicit repair choices and screen-based comparison, Lecture 08 informs code checks before action, Lecture 10 informs visible editable session labels and expiry, and Lecture 11 informs dated evidence and stale-source checking. References [6]–[10] identify PDF pages in the five lecture files supplied for this revision. Course PDFs remain source material rather than project deliverables. No teacher feedback was supplied.
 
 ## References and reused material
 
