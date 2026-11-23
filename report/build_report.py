@@ -32,7 +32,7 @@ WIDTH = 511.2
 styles = {
     'title': ParagraphStyle('Title', fontName='Bold', fontSize=24, leading=28, spaceAfter=12, textColor=INK),
     'h1': ParagraphStyle('Heading', fontName='Bold', fontSize=13, leading=17, spaceBefore=12, spaceAfter=7, textColor=INK, keepWithNext=True),
-    'body': ParagraphStyle('Body', fontName='Body', fontSize=10.7, leading=14, spaceAfter=7, textColor=INK, splitLongWords=False),
+    'body': ParagraphStyle('Body', fontName='Body', fontSize=10.7, leading=14, spaceAfter=7, textColor=INK, splitLongWords=True),
     'small': ParagraphStyle('Small', fontName='Body', fontSize=9, leading=12, spaceAfter=8, textColor=MUTED),
     'caption': ParagraphStyle('Caption', fontName='Body', fontSize=9.1, leading=12, spaceAfter=13, textColor=MUTED),
     'ref': ParagraphStyle('Reference', fontName='Body', fontSize=9.8, leading=14, spaceAfter=13, textColor=INK),
@@ -163,12 +163,13 @@ def build():
     elements.append(paragraph('Project access and development evidence', 'h1'))
     metadata = HERE/'repository.json'
     repository = json.loads(metadata.read_text()) if metadata.exists() else {}
+    version = repository.get('version', 'a2-submission-v1')
     if repository.get('url'):
         elements.append(paragraph('Public repository '+repository['url']))
-        elements.append(paragraph('README and development record '+repository['url']+'/blob/a2-submission-v1/README.md'))
+        elements.append(paragraph('README and development record '+repository['url']+'/blob/'+version+'/README.md'))
     else:
         elements.append(paragraph('Project materials are supplied in the accompanying project archive. README.md contains run instructions, the development record, software checks and the AI assistance statement.'))
-    elements.append(paragraph('The submitted source version is identified by the Git tag a2-submission-v1. Browser evidence is in evidence/ and the regression transcript is evidence/test-results.txt. The implementation and fixed fixtures can be replayed using the README instructions.'))
+    elements.append(paragraph('The submitted source version is identified by the Git tag '+version+'. Browser evidence is in evidence/ and the regression transcript is evidence/test-results.txt. The implementation and fixed fixtures can be replayed using the README instructions.'))
     elements.append(paragraph('References and reused material', 'h1'))
     for reference in CONTENT['references']:
         elements.append(paragraph(reference.replace(' .', ''), 'ref'))

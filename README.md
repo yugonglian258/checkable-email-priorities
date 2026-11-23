@@ -1,6 +1,8 @@
 # Checkable email priorities
 
-README word count 1334 including headings, code and links, excluding this count line.
+README word count is recorded in report/readme-word-count.json.
+
+Public repository https://github.com/yugonglian258/checkable-email-priorities .
 
 Review a simulated AI priority against the latest message and its timestamp, then confirm or correct one local thread label. Four synthetic threads use a fixed London clock of 22 October 2026 at 10:00. The baseline and revised modes expose the effect of an old quoted deadline.
 
@@ -74,7 +76,7 @@ The revised rules recognise a small phrase vocabulary and ISO dates. They can mi
 
 ## Submitted version
 
-The local Git release tag is `a2-submission-v1`. Run `git rev-parse a2-submission-v1` to inspect the commit. The accompanying archive includes the working project, evidence and local Git history. After publishing, link the public repository and this README from the report.
+The submitted Git release tag is `a2-submission-v2`. Run `git rev-parse a2-submission-v2` to inspect the commit. The accompanying archive includes the working project, evidence and local Git history. The report links to the public repository and this README at the submitted tag.
 
 The report PDF, editable report content and vector figures are in `report/`. `report/build_report.py` regenerates the PDF from `report/content.json` using ReportLab. Running the email app itself uses only the standard library. The supplied report counts 157 abstract words and 895 main-text words, including section headings and the interaction introduction. Figure labels, brief captions, references and repository access details are excluded.
 
